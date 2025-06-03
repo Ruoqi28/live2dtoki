@@ -1,10 +1,12 @@
 {
   "Version": 3,
   "FileReferences": {
-    "Moc": "toki.moc3",
-    "Textures": ["textures/texture_00.png"],
-    "Physics": "toki.physics3.json",
-    "DisplayInfo": "toki.cdi3.json",
+    "Moc": "20220227toki.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "20220227toki.physics3.json",
+    "DisplayInfo": "20220227toki.cdi3.json",
     "Motions": {
       "Idle": [
         {
@@ -17,12 +19,17 @@
     {
       "Target": "Parameter",
       "Name": "LipSync",
-      "Ids": []
+      "Ids": ["ParamMouthOpenY"]
     },
     {
       "Target": "Parameter",
       "Name": "EyeBlink",
-      "Ids": []
+      "Ids": ["ParamEyeLOpen", "ParamEyeROpen"]
     }
-  ]
+  ],
+  "Layout": {
+    "center_x": 0.0,
+    "center_y": -1.0,
+    "width": 2.6
+  }
 }
